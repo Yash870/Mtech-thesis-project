@@ -1,0 +1,6 @@
+# Ignore heavy EDA tool outputs and workspaces
+**/innovus_output/
+**/workspace/
+**/*.sdf
+**/*.spef
+**/*.pak

@@ -1,0 +1,82 @@
+7:12:32 PM - 
+7:12:32 PM - *** Warning *** An instance name ("sram_sp_hdc_svt_rvt_hvt") of more than 16 characters may create cellnames 
+7:12:33 PM - *** Warning *** that exceed the number of characters supported by some tools.7:12:33 PM - 
+7:12:39 PM - ARM Physical IP, Inc.
+7:12:39 PM - Linux vlsiarm.ee.iitb.ac.in 3.10.0-1160.59.1.el7.x86_64 #1 SMP Wed Feb 23 16:47:03 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+7:12:39 PM - Version r0p0-00eac0
+7:12:39 PM - GUI version 7.0.10
+7:12:39 PM - 
+7:12:39 PM - CONFIDENTIAL AND PROPRIETARY SOFTWARE OF ARM PHYSICAL IP, INC.
+7:12:39 PM - 
+7:12:39 PM - Copyright (c) 1993 - 2026 ARM Physical IP, Inc.  All Rights Reserved.
+7:12:39 PM - 
+7:12:39 PM - Use of this Software is subject to the terms and conditions of the
+7:12:39 PM - applicable license agreement with ARM Physical IP, Inc. 
+7:12:39 PM - In addition, this Software is protected by patents, copyright law 
+7:12:39 PM - and international treaties.
+7:12:39 PM - 
+7:12:39 PM - The copyright notice(s) in this Software does not indicate actual or
+7:12:39 PM - intended publication of this Software.
+7:12:39 PM - 
+7:12:39 PM - sram_sp_hdc_svt_rvt_hvt Compiler, TSMC cln65gplus 65nm Process, 0.525um2 Bitcell
+7:12:39 PM - 
+7:12:39 PM - Log file is ACI.log
+7:12:39 PM - 
+
+7:13:33 PM - *** Warning *** An instance name ("picosoc_sram_2048x32") of more than 16 characters may create cellnames 
+7:13:33 PM - *** Warning *** that exceed the number of characters supported by some tools.7:13:33 PM - 
+7:13:41 PM - ASCII Datatable updated
+
+7:13:47 PM - *** Warning *** An instance name ("picosoc_sram_2048x32") of more than 16 characters may create cellnames 
+7:13:47 PM - *** Warning *** that exceed the number of characters supported by some tools.7:13:47 PM - 
+7:13:47 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt postscript -instname "picosoc_sram_2048x32" -words 2048 -bits 32 -frequency 100 -mux 16 -pipeline off -write_mask on -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+7:14:00 PM - PostScript Datasheet generator succeeded, created:
+7:14:00 PM -    picosoc_sram_2048x32_ff_1p10v_1p10v_125c.ps
+7:14:00 PM -    picosoc_sram_2048x32_tt_1p00v_1p00v_25c.ps
+7:14:00 PM -    picosoc_sram_2048x32_ff_1p10v_1p10v_0c.ps
+7:14:00 PM -    picosoc_sram_2048x32_ss_0p90v_0p90v_125c.ps
+7:14:00 PM -    picosoc_sram_2048x32_ff_1p10v_1p10v_m40c.ps
+7:14:00 PM -    picosoc_sram_2048x32_ss_0p90v_0p90v_m40c.ps
+
+7:14:22 PM - *** Warning *** An instance name ("picosoc_sram_2048x32") of more than 16 characters may create cellnames 
+7:14:22 PM - *** Warning *** that exceed the number of characters supported by some tools.7:14:22 PM - 
+7:14:22 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt ascii -instname "picosoc_sram_2048x32" -words 2048 -bits 32 -frequency 100 -mux 16 -pipeline off -write_mask on -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+7:14:33 PM - ASCII Datatable generator succeeded, created:
+7:14:33 PM -    picosoc_sram_2048x32_ff_1p10v_1p10v_125c.dat
+7:14:33 PM -    picosoc_sram_2048x32_tt_1p00v_1p00v_25c.dat
+7:14:33 PM -    picosoc_sram_2048x32_ff_1p10v_1p10v_0c.dat
+7:14:33 PM -    picosoc_sram_2048x32_ss_0p90v_0p90v_125c.dat
+7:14:33 PM -    picosoc_sram_2048x32_ff_1p10v_1p10v_m40c.dat
+7:14:33 PM -    picosoc_sram_2048x32_ss_0p90v_0p90v_m40c.dat
+
+7:14:39 PM - *** Warning *** An instance name ("picosoc_sram_2048x32") of more than 16 characters may create cellnames 
+7:14:39 PM - *** Warning *** that exceed the number of characters supported by some tools.7:14:39 PM - 
+7:14:39 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt verilog -instname "picosoc_sram_2048x32" -words 2048 -bits 32 -frequency 100 -mux 16 -pipeline off -write_mask on -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+7:14:40 PM - Verilog Model generator succeeded, created: picosoc_sram_2048x32.v
+
+7:14:53 PM - *** Warning *** An instance name ("picosoc_sram_2048x32") of more than 16 characters may create cellnames 
+7:14:53 PM - *** Warning *** that exceed the number of characters supported by some tools.7:14:53 PM - 
+7:14:53 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt synopsys -instname "picosoc_sram_2048x32" -words 2048 -bits 32 -frequency 100 -mux 16 -pipeline off -write_mask on -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -libname USERLIB -nldm on -ccs off -ecsm off -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+7:15:34 PM - Synopsys Model generator succeeded, created:
+7:15:34 PM -    picosoc_sram_2048x32_nldm_ff_1p10v_1p10v_125c_syn.lib
+7:15:34 PM -    picosoc_sram_2048x32_nldm_tt_1p00v_1p00v_25c_syn.lib
+7:15:34 PM -    picosoc_sram_2048x32_nldm_ff_1p10v_1p10v_0c_syn.lib
+7:15:34 PM -    picosoc_sram_2048x32_nldm_ss_0p90v_0p90v_125c_syn.lib
+7:15:34 PM -    picosoc_sram_2048x32_nldm_ff_1p10v_1p10v_m40c_syn.lib
+7:15:34 PM -    picosoc_sram_2048x32_nldm_ss_0p90v_0p90v_m40c_syn.lib
+
+7:15:40 PM - *** Warning *** An instance name ("picosoc_sram_2048x32") of more than 16 characters may create cellnames 
+7:15:40 PM - *** Warning *** that exceed the number of characters supported by some tools.7:15:40 PM - 
+7:15:40 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt vclef-fp -instname "picosoc_sram_2048x32" -words 2048 -bits 32 -frequency 100 -mux 16 -pipeline off -write_mask on -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -site_def off -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+7:15:47 PM - VCLEF Footprint generator succeeded, created: picosoc_sram_2048x32.vclef
+
+7:15:52 PM - *** Warning *** An instance name ("picosoc_sram_2048x32") of more than 16 characters may create cellnames 
+7:15:52 PM - *** Warning *** that exceed the number of characters supported by some tools.7:15:52 PM - 
+7:15:52 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt gds2 -instname "picosoc_sram_2048x32" -words 2048 -bits 32 -frequency 100 -mux 16 -pipeline off -write_mask on -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+7:16:00 PM - ARM PIPD physical GDS tool, version 2.3.7
+7:16:04 PM - GDSII Layout generator succeeded, created: picosoc_sram_2048x32.gds2
+
+7:16:20 PM - *** Warning *** An instance name ("picosoc_sram_2048x32") of more than 16 characters may create cellnames 
+7:16:20 PM - *** Warning *** that exceed the number of characters supported by some tools.7:16:20 PM - 
+7:16:20 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt lvs -instname "picosoc_sram_2048x32" -words 2048 -bits 32 -frequency 100 -mux 16 -pipeline off -write_mask on -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+7:16:28 PM - LVS Netlist generator succeeded, created: picosoc_sram_2048x32.cdl

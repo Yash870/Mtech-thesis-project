@@ -1,0 +1,92 @@
+4:10:44 PM - 
+4:10:44 PM - *** Warning *** An instance name ("sram_dp_hdc_svt_rvt_hvt") of more than 16 characters may create cellnames 
+4:10:44 PM - *** Warning *** that exceed the number of characters supported by some tools.4:10:44 PM - 
+4:10:52 PM - ARM Physical IP, Inc.
+4:10:52 PM - Linux vlsiarm.ee.iitb.ac.in 3.10.0-1160.59.1.el7.x86_64 #1 SMP Wed Feb 23 16:47:03 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+4:10:52 PM - Version r0p1-00eac0
+4:10:52 PM - GUI version 7.0.15
+4:10:52 PM - 
+4:10:52 PM - CONFIDENTIAL AND PROPRIETARY SOFTWARE OF ARM PHYSICAL IP, INC.
+4:10:52 PM - 
+4:10:52 PM - Copyright (c) 1993 - 2026 ARM Physical IP, Inc.  All Rights Reserved.
+4:10:52 PM - 
+4:10:52 PM - Use of this Software is subject to the terms and conditions of the
+4:10:52 PM - applicable license agreement with ARM Physical IP, Inc. 
+4:10:52 PM - In addition, this Software is protected by patents, copyright law 
+4:10:52 PM - and international treaties.
+4:10:52 PM - 
+4:10:52 PM - The copyright notice(s) in this Software does not indicate actual or
+4:10:52 PM - intended publication of this Software.
+4:10:52 PM - 
+4:10:52 PM - sram_dp_hdc_svt_rvt_hvt Compiler, TSMC cln65gplus 65nm Process, 0.974um2 Bitcell
+4:10:52 PM - 
+4:10:52 PM - Log file is ACI.log
+4:10:52 PM - 
+
+4:13:29 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:13:29 PM - *** Warning *** that exceed the number of characters supported by some tools.4:13:29 PM - 
+4:13:33 PM - ASCII Datatable updated
+
+4:13:44 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:13:44 PM - *** Warning *** that exceed the number of characters supported by some tools.4:13:44 PM - 
+
+4:13:48 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:13:48 PM - *** Warning *** that exceed the number of characters supported by some tools.4:13:48 PM - 
+4:13:48 PM - command: /arm_pdk/tsmc/cln65gplus/sram_dp_hdc_svt_rvt_hvt/r0p1/bin/sram_dp_hdc_svt_rvt_hvt postscript -instname "pe_spad_1024x16_dp" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -dpccm on -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:14:02 PM - PostScript Datasheet generator succeeded, created:
+4:14:02 PM -    pe_spad_1024x16_dp_ff_1p10v_1p10v_125c.ps
+4:14:02 PM -    pe_spad_1024x16_dp_tt_1p00v_1p00v_25c.ps
+4:14:02 PM -    pe_spad_1024x16_dp_ff_1p10v_1p10v_0c.ps
+4:14:02 PM -    pe_spad_1024x16_dp_ss_0p90v_0p90v_125c.ps
+4:14:02 PM -    pe_spad_1024x16_dp_ff_1p10v_1p10v_m40c.ps
+4:14:02 PM -    pe_spad_1024x16_dp_ss_0p90v_0p90v_m40c.ps
+
+4:14:14 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:14:14 PM - *** Warning *** that exceed the number of characters supported by some tools.4:14:14 PM - 
+4:14:14 PM - command: /arm_pdk/tsmc/cln65gplus/sram_dp_hdc_svt_rvt_hvt/r0p1/bin/sram_dp_hdc_svt_rvt_hvt ascii -instname "pe_spad_1024x16_dp" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -dpccm on -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:14:19 PM - ASCII Datatable generator succeeded, created:
+4:14:21 PM -    pe_spad_1024x16_dp_ff_1p10v_1p10v_125c.dat
+4:14:21 PM -    pe_spad_1024x16_dp_tt_1p00v_1p00v_25c.dat
+4:14:21 PM -    pe_spad_1024x16_dp_ff_1p10v_1p10v_0c.dat
+4:14:21 PM -    pe_spad_1024x16_dp_ss_0p90v_0p90v_125c.dat
+4:14:21 PM -    pe_spad_1024x16_dp_ff_1p10v_1p10v_m40c.dat
+4:14:21 PM -    pe_spad_1024x16_dp_ss_0p90v_0p90v_m40c.dat
+
+4:14:28 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:14:28 PM - *** Warning *** that exceed the number of characters supported by some tools.4:14:28 PM - 
+4:14:28 PM - command: /arm_pdk/tsmc/cln65gplus/sram_dp_hdc_svt_rvt_hvt/r0p1/bin/sram_dp_hdc_svt_rvt_hvt verilog -instname "pe_spad_1024x16_dp" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -dpccm on -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:14:28 PM - Verilog Model generator succeeded, created: pe_spad_1024x16_dp.v
+
+4:14:43 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:14:43 PM - *** Warning *** that exceed the number of characters supported by some tools.4:14:43 PM - 
+4:14:43 PM - command: /arm_pdk/tsmc/cln65gplus/sram_dp_hdc_svt_rvt_hvt/r0p1/bin/sram_dp_hdc_svt_rvt_hvt synopsys -instname "pe_spad_1024x16_dp" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -dpccm on -asvm on -libname USERLIB -nldm on -ccs off -ecsm off -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:16:02 PM - Synopsys Model generator succeeded, created:
+4:16:02 PM -    pe_spad_1024x16_dp_nldm_ff_1p10v_1p10v_125c_syn.lib
+4:16:02 PM -    pe_spad_1024x16_dp_nldm_tt_1p00v_1p00v_25c_syn.lib
+4:16:02 PM -    pe_spad_1024x16_dp_nldm_ff_1p10v_1p10v_0c_syn.lib
+4:16:02 PM -    pe_spad_1024x16_dp_nldm_ss_0p90v_0p90v_125c_syn.lib
+4:16:02 PM -    pe_spad_1024x16_dp_nldm_ff_1p10v_1p10v_m40c_syn.lib
+4:16:02 PM -    pe_spad_1024x16_dp_nldm_ss_0p90v_0p90v_m40c_syn.lib
+
+4:16:10 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:16:10 PM - *** Warning *** that exceed the number of characters supported by some tools.4:16:10 PM - 
+4:16:10 PM - command: /arm_pdk/tsmc/cln65gplus/sram_dp_hdc_svt_rvt_hvt/r0p1/bin/sram_dp_hdc_svt_rvt_hvt vclef-fp -instname "pe_spad_1024x16_dp" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -dpccm on -asvm on -site_def on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:16:13 PM - emit_site is on
+4:16:14 PM - VCLEF Footprint generator succeeded, created: pe_spad_1024x16_dp.vclef
+
+4:16:27 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:16:27 PM - *** Warning *** that exceed the number of characters supported by some tools.4:16:27 PM - 
+4:16:27 PM - command: /arm_pdk/tsmc/cln65gplus/sram_dp_hdc_svt_rvt_hvt/r0p1/bin/sram_dp_hdc_svt_rvt_hvt vclef-fp -instname "pe_spad_1024x16_dp" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -dpccm on -asvm on -site_def on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:16:30 PM - emit_site is on
+4:16:33 PM - VCLEF Footprint generator succeeded, created: pe_spad_1024x16_dp.vclef
+
+4:16:40 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:16:40 PM - *** Warning *** that exceed the number of characters supported by some tools.4:16:40 PM - 
+4:16:40 PM - command: /arm_pdk/tsmc/cln65gplus/sram_dp_hdc_svt_rvt_hvt/r0p1/bin/sram_dp_hdc_svt_rvt_hvt gds2 -instname "pe_spad_1024x16_dp" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -dpccm on -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:16:46 PM - ARM PIPD physical GDS tool, version 2.4.1
+4:16:49 PM - GDSII Layout generator succeeded, created: pe_spad_1024x16_dp.gds2
+
+4:17:07 PM - *** Warning *** An instance name ("pe_spad_1024x16_dp") of more than 16 characters may create cellnames 
+4:17:07 PM - *** Warning *** that exceed the number of characters supported by some tools.4:17:07 PM - 
+4:17:07 PM - command: /arm_pdk/tsmc/cln65gplus/sram_dp_hdc_svt_rvt_hvt/r0p1/bin/sram_dp_hdc_svt_rvt_hvt lvs -instname "pe_spad_1024x16_dp" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -dpccm on -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:17:09 PM - LVS Netlist generator succeeded, created: pe_spad_1024x16_dp.cdl

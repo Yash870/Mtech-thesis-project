@@ -1,0 +1,63 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000000000000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000     0x16c0
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000000000000      0x22c /tmp/ccpORhhP.o
+ .text          0x000000000000022c     0x13b4 /tmp/ccmeCsxu.o
+                0x0000000000000f48                main
+ *(.text.*)
+ *(.rodata)
+ .rodata        0x00000000000015e0       0xe0 /tmp/ccmeCsxu.o
+ *(.rodata.*)
+                0x00000000000016c0                . = ALIGN (0x4)
+                0x00000000000016c0                _etext = .
+
+.rela.dyn       0x00000000000016c0        0x0
+ .rela.text     0x00000000000016c0        0x0 /tmp/ccpORhhP.o
+
+.data           0x00000000000016c0       0x14
+                0x00000000000016c0                . = ALIGN (0x4)
+                0x00000000000016c0                _sdata = .
+ *(.data)
+ .data          0x00000000000016c0       0x14 /tmp/ccpORhhP.o
+ .data          0x00000000000016d4        0x0 /tmp/ccmeCsxu.o
+ *(.data.*)
+                0x00000000000016d4                . = ALIGN (0x4)
+                0x00000000000016d4                _edata = .
+
+.bss            0x00000000000016d4        0x0
+                0x00000000000016d4                . = ALIGN (0x4)
+                0x00000000000016d4                _sbss = .
+ *(.bss)
+ .bss           0x00000000000016d4        0x0 /tmp/ccpORhhP.o
+ .bss           0x00000000000016d4        0x0 /tmp/ccmeCsxu.o
+ *(.bss.*)
+ *(COMMON)
+                0x00000000000016d4                . = ALIGN (0x4)
+                0x00000000000016d4                _ebss = .
+                0x00000000000016d4                end = .
+LOAD /tmp/ccpORhhP.o
+LOAD /tmp/ccmeCsxu.o
+OUTPUT(codes/veeresh_compiler/veeresh_compiler.elf elf32-littleriscv)
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x11 /tmp/ccmeCsxu.o
+                                         0x12 (size before relaxing)
+
+Cross Reference Table
+
+Symbol                                            File
+_ebss                                             /tmp/ccpORhhP.o
+_sbss                                             /tmp/ccpORhhP.o
+debug                                             /tmp/ccpORhhP.o
+main                                              /tmp/ccmeCsxu.o
+                                                  /tmp/ccpORhhP.o

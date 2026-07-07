@@ -1,0 +1,21 @@
+# =========================================================
+# 1. TSMC 65nm Standard Cell Library
+#    +define+TSMC_INIT_0 in xrun_options.glv activates the
+#    library's built-in "initial Q = 0" for all FF cells.
+#    No hand-rolled override needed.
+# =========================================================
+-v /vlsi/pdk/tsmc_gp_65_stdio/tcbn65gplushvt_200a/TSMCHOME/digital/Front_End/verilog/tcbn65gplushvt_200a/tcbn65gplushvt.v
+
+# =========================================================
+# 3. REAL ARM Macro Behavioral Models (NO OVERRIDES)
+#    We will backdoor-load these from the testbench.
+# =========================================================
+../macros/picosoc_sram_2048x32/picosoc_sram_2048x32.v
+../macros/pingpong_sram_4096x16/pingpong_sram_4096x16.v
+../macros/pe_spad_1024x16_dp/pe_spad_1024x16_dp.v
+../macros/lut_sram_1024x16/lut_sram_1024x16.v
+
+# =========================================================
+# 4. Synthesised Gate-Level Netlist (The "Chip")
+# =========================================================
+../reports/synthesis/hardware_netlist.v

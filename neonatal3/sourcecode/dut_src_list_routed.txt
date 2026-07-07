@@ -1,0 +1,23 @@
+# =========================================================
+# POST-ROUTE GLS SOURCE LIST
+# =========================================================
+
+# 1. ARM Macro Behavioral Models
+#    Backdoor-loaded from testbench_routing.v initial block.
+../macros/picosoc_sram_2048x32/picosoc_sram_2048x32.v
+../macros/pingpong_sram_4096x16/pingpong_sram_4096x16.v
+../macros/pe_spad_1024x16_dp/pe_spad_1024x16_dp.v
+../macros/lut_sram_1024x16/lut_sram_1024x16.v
+
+# 2. Post-Route Physical Netlist (Exported from Innovus)
+../innovus_output/EXPORTS/hardware_routed.v
+
+# 3. TSMC 65nm Standard Cell Library (UDP primitives, timing models)
+-v /vlsi/pdk/tsmc_gp_65_stdio/tcbn65gplushvt_200a/TSMCHOME/digital/Front_End/verilog/tcbn65gplushvt_200a/tcbn65gplushvt.v
+
+# 4. Behavioral FF overrides: initial Q=0 for all FF cell types.
+#    TSMC UDP primitives have no initial Q — FFs start X in zero-delay GLS.
+#    -ALLOWREDEFINITION is in xrun_routed.glv.
+#    NOTE: LIBNOU expected — TSMC lib already defined all these modules first.
+#    Hardware still completes correctly via hardware reset path.
+-v ../sourcecode/tb/tsmc_ff_init.v

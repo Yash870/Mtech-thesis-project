@@ -1,0 +1,59 @@
+4:05:19 PM - 
+4:05:19 PM - *** Warning *** An instance name ("sram_sp_hdc_svt_rvt_hvt") of more than 16 characters may create cellnames 
+4:05:19 PM - *** Warning *** that exceed the number of characters supported by some tools.4:05:19 PM - 
+4:05:26 PM - ARM Physical IP, Inc.
+4:05:26 PM - Linux vlsiarm.ee.iitb.ac.in 3.10.0-1160.59.1.el7.x86_64 #1 SMP Wed Feb 23 16:47:03 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+4:05:26 PM - Version r0p0-00eac0
+4:05:26 PM - GUI version 7.0.10
+4:05:26 PM - 
+4:05:26 PM - CONFIDENTIAL AND PROPRIETARY SOFTWARE OF ARM PHYSICAL IP, INC.
+4:05:26 PM - 
+4:05:26 PM - Copyright (c) 1993 - 2026 ARM Physical IP, Inc.  All Rights Reserved.
+4:05:26 PM - 
+4:05:26 PM - Use of this Software is subject to the terms and conditions of the
+4:05:26 PM - applicable license agreement with ARM Physical IP, Inc. 
+4:05:26 PM - In addition, this Software is protected by patents, copyright law 
+4:05:26 PM - and international treaties.
+4:05:26 PM - 
+4:05:26 PM - The copyright notice(s) in this Software does not indicate actual or
+4:05:26 PM - intended publication of this Software.
+4:05:26 PM - 
+4:05:26 PM - sram_sp_hdc_svt_rvt_hvt Compiler, TSMC cln65gplus 65nm Process, 0.525um2 Bitcell
+4:05:26 PM - 
+4:05:26 PM - Log file is ACI.log
+4:05:26 PM - 
+4:06:38 PM - ASCII Datatable updated
+4:07:04 PM - ASCII Datatable updated
+4:07:17 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt postscript -instname "lut_sram_1024x16" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:07:26 PM - PostScript Datasheet generator succeeded, created:
+4:07:26 PM -    lut_sram_1024x16_ff_1p10v_1p10v_125c.ps
+4:07:26 PM -    lut_sram_1024x16_tt_1p00v_1p00v_25c.ps
+4:07:26 PM -    lut_sram_1024x16_ff_1p10v_1p10v_0c.ps
+4:07:26 PM -    lut_sram_1024x16_ss_0p90v_0p90v_125c.ps
+4:07:26 PM -    lut_sram_1024x16_ff_1p10v_1p10v_m40c.ps
+4:07:26 PM -    lut_sram_1024x16_ss_0p90v_0p90v_m40c.ps
+4:07:32 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt ascii -instname "lut_sram_1024x16" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:07:40 PM - ASCII Datatable generator succeeded, created:
+4:07:40 PM -    lut_sram_1024x16_ff_1p10v_1p10v_125c.dat
+4:07:40 PM -    lut_sram_1024x16_tt_1p00v_1p00v_25c.dat
+4:07:40 PM -    lut_sram_1024x16_ff_1p10v_1p10v_0c.dat
+4:07:40 PM -    lut_sram_1024x16_ss_0p90v_0p90v_125c.dat
+4:07:40 PM -    lut_sram_1024x16_ff_1p10v_1p10v_m40c.dat
+4:07:40 PM -    lut_sram_1024x16_ss_0p90v_0p90v_m40c.dat
+4:07:46 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt verilog -instname "lut_sram_1024x16" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:07:46 PM - Verilog Model generator succeeded, created: lut_sram_1024x16.v
+4:07:52 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt synopsys -instname "lut_sram_1024x16" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -libname USERLIB -nldm on -ccs off -ecsm off -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:08:21 PM - Synopsys Model generator succeeded, created:
+4:08:21 PM -    lut_sram_1024x16_nldm_ff_1p10v_1p10v_125c_syn.lib
+4:08:21 PM -    lut_sram_1024x16_nldm_tt_1p00v_1p00v_25c_syn.lib
+4:08:21 PM -    lut_sram_1024x16_nldm_ff_1p10v_1p10v_0c_syn.lib
+4:08:21 PM -    lut_sram_1024x16_nldm_ss_0p90v_0p90v_125c_syn.lib
+4:08:21 PM -    lut_sram_1024x16_nldm_ff_1p10v_1p10v_m40c_syn.lib
+4:08:21 PM -    lut_sram_1024x16_nldm_ss_0p90v_0p90v_m40c_syn.lib
+4:08:29 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt vclef-fp -instname "lut_sram_1024x16" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -site_def off -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:08:33 PM - VCLEF Footprint generator succeeded, created: lut_sram_1024x16.vclef
+4:09:15 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt gds2 -instname "lut_sram_1024x16" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:09:20 PM - ARM PIPD physical GDS tool, version 2.3.7
+4:09:22 PM - GDSII Layout generator succeeded, created: lut_sram_1024x16.gds2
+4:09:44 PM - command: /arm_pdk/tsmc/cln65gplus/sram_sp_hdc_svt_rvt_hvt/r0p0-00eac0/bin/sram_sp_hdc_svt_rvt_hvt lvs -instname "lut_sram_1024x16" -words 1024 -bits 16 -frequency 100 -mux 16 -pipeline off -write_mask off -wp_size 8 -write_thru on -top_layer "m5-m9" -power_type otc -redundancy off -rcols 2 -rrows 2 -bmux off -ser none -back_biasing off -power_gating off -retention on -ema on -atf off -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "VDDPE:VDDPE,VDDCE:VDDCE,VSSE:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -dnw off -asvm on -corners ff_1p10v_1p10v_125c,tt_1p00v_1p00v_25c,ff_1p10v_1p10v_0c,ss_0p90v_0p90v_125c,ff_1p10v_1p10v_m40c,ss_0p90v_0p90v_m40c
+4:09:48 PM - LVS Netlist generator succeeded, created: lut_sram_1024x16.cdl
