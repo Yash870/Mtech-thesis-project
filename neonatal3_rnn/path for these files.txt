@@ -1,0 +1,5 @@
+Mtp1/neonatal3/sourcecode/rtl/decoder_acc.v
+Mtp1/neonatal3/sourcecode/rtl/hardware.v
+Mtp1/neonatal3/sourcecode/tb/test_rnn_vector_ops.v
+Mtp1/neonatal3/scripts/verilator_lint_rnn.sh
+Mtp1/neonatal3/sourcecode/tb/veeresh_compiler/RNN_SUPPORT.md
