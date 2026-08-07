@@ -4,3 +4,27 @@
 **/*.sdf
 **/*.spef
 **/*.pak
+
+# Cadence/Xcelium generated files
+**/xcelium.d/
+**/xrun.history
+**/.nfs*
+
+# Reports
+**/reports/
+
+# Generated routed netlists
+**/hardware_routed.v
+**/*_routed.v
+
+# Generated binaries
+*.bin
+*.elf
+*.map
+
+# Physical design files
+*.gds
+*.lef
+*.cdl
+*.dat
+*.ps

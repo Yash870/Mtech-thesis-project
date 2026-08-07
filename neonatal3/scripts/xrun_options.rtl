@@ -1,0 +1,41 @@
+-sv
+-v93
+-debug
+-delay_trigger
+-timescale 1ns/1ps
++bus_conflict_off
+-define RTL
++define+ARM_UD_MODEL
+-notimingchecks
+-nospecify
+-f ../sourcecode/dut_src_list.txt
+../sourcecode/tb/test_hardware.v
+-top test_hardware
+-exit
+
+
+#-sv
+#-v93
+#-debug
+#-gui
+#-delay_trigger
+#-timescale 1ns/1ps
+#+bus_conflict_off
+#-define RTL
+#-f ../sourcecode/dut_src_list.txt
+#../sourcecode/tb/testbench.v
+#-top testbench
+
+#Optionally add a tcl script to run Xcelium invocation
+#-input ../scripts/simulation.tcl
+
+
+#if you have Standard Cell instantiations, make sure to add this to your source list
+
+
+#if you have IOs, make sure to add this to your source list
+
+#if you have memories, add a preload option and behavioral models to your source list:
+# +MEMLOAD="PRELOAD"
+# <my memories>.v
+
