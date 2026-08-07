@@ -1,0 +1,15 @@
+-sv
+-v93
+-debug
+-xmlibdirname /tmp/yashb_xcelium_mnist.d
+-delay_trigger
+-timescale 1ns/1ps
++bus_conflict_off
+-define RTL
++define+ARM_UD_MODEL
+-notimingchecks
+-nospecify
+-f ../sourcecode/dut_src_list.txt
+../sourcecode/tb/test_hardware_mnist.v
+-top test_hardware_mnist
+-exit

@@ -1,0 +1,6 @@
+Mtp1/neonatal3/sourcecode/rtl/decoder_acc.v
+Mtp1/neonatal3/sourcecode/rtl/sigmoid_hardware.v
+Mtp1/neonatal3/sourcecode/tb/test_tanh_decoder.v
+Mtp1/neonatal3/sourcecode/tb/test_tanh_activation.v
+Mtp1/neonatal3/scripts/xrun_tanh_decoder.rtl
+Mtp1/neonatal3/scripts/xrun_tanh_activation.rtl
