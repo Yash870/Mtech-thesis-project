@@ -1,0 +1,15 @@
+-sv
+-v93
+-debug
+-delay_trigger
+-timescale 1ns/1ps
++bus_conflict_off
+-define RTL
++define+ARM_UD_MODEL
+-notimingchecks
+-nospecify
+../sourcecode/rtl/lut_sram_1024x16.v
+../sourcecode/rtl/sigmoid_hardware.v
+../sourcecode/tb/test_tanh_activation.v
+-top test_tanh_activation
+-exit
