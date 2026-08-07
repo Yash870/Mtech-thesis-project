@@ -1,0 +1,14 @@
+-sv
+-v93
+-debug
+-delay_trigger
+-timescale 1ns/1ps
++bus_conflict_off
+-define RTL
++define+ARM_UD_MODEL
+-notimingchecks
+-nospecify
+-f ../sourcecode/dut_src_list.txt
+../sourcecode/tb/test_first_n_loads.v
+-top test_first_n_loads
+-exit
